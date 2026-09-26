@@ -146,7 +146,7 @@ const TRANSLATIONS = {
     paid: 'পরিশোধিত টাকা',
     due: 'বাকি টাকা',
     actions: 'পদক্ষেপ',
-    cash: 'নগদ টাকা',
+    cash: 'ন নগদ টাকা',
     online: 'অনলাইন ইউপিআই',
     khataDue: 'বাকি / খাতা',
     unmask: 'উন্মুক্ত মান',
@@ -176,47 +176,7 @@ const RAW_CUSTOMERS = [
   ['c7', 'Sukumar Pal', '9733456789', 'Jamalpur, Bardhaman', 'Pointed Gourd (Potal) & Bitter Gourd'],
   ['c8', 'Ananta Das', '9474123890', 'Tarakeswar, Hooghly', 'Potato, Cauliflower & Cabbage'],
   ['c9', 'Subhas Mukherjee', '9832567890', 'Dainhat, Katwa', 'Boro Paddy & Sesame (Til)'],
-  ['c10', 'Bikash Murmu', '9641234567', 'Guskara, Bardhaman', 'Organic Paddy & Mustard farming'],
-  ['c11', 'Gurpreet Singh Dhillon', '9814012345', 'Samrala, Ludhiana, Punjab', 'Wheat-Paddy rotation - 25 Acres'],
-  ['c12', 'Harjinder Sandhu', '9872034567', 'Khamanon, Fatehgarh Sahib', 'Paddy 1509 & Sharbati Wheat'],
-  ['c13', 'Kulwant Singh Mann', '9815098765', 'Moga Road, Jagraon', 'Silage Maize & Potato rotation'],
-  ['c14', 'Balwinder Kang', '9888012389', 'Doraha, Ludhiana', 'Basmati Pusa 1121 & Sunflower'],
-  ['c15', 'Jaipal Hooda', '9416012345', 'Kiloi, Rohtak, Haryana', 'Wheat & Pearl Millet (Bajra)'],
-  ['c16', 'Surender Dahiya', '9812034567', 'Murthal, Sonipat, Haryana', 'Commercial Tomato & Baby Corn'],
-  ['c17', 'Virender Phogat', '9466098712', 'Charkhi Dadri, Haryana', 'Mustard & Chickpea (Chana)'],
-  ['c18', 'Satish Nain', '9896012345', 'Narwana, Jind, Haryana', 'Basmati Paddy & Barley (Jau)'],
-  ['c19', 'Ramesh Patel', '9825012345', 'Sanand, Ahmedabad, Gujarat', 'Bt Cotton & Castor (Divela)'],
-  ['c20', 'Kishorebhai Vaghani', '9879034567', 'Bavla, Ahmedabad, Gujarat', 'Paddy Gurjari & Wheat GW-496'],
-  ['c21', 'Hareshbhai Chaudhary', '9909012389', 'Deesa, Banaskantha, Gujarat', 'Kufri Pukhraj Potato - 15 Acres'],
-  ['c22', 'Bharatbhai Prajapati', '9824098712', 'Dholka, Gujarat', 'Cumin (Jeera) & Fenugreek'],
-  ['c23', 'Dnyaneshwar Patil', '9822012345', 'Baramati, Pune, Maharashtra', 'Sugarcane Co-86032 & Sweet Corn'],
-  ['c24', 'Sambhaji Jadhav', '9850034567', 'Phaltan, Satara, Maharashtra', 'Export Grade Pomegranate (Bhagwa)'],
-  ['c25', 'Nitin Shinde', '9890012389', 'Pimpalgaon, Nashik', 'Thompson Seedless Table Grapes'],
-  ['c26', 'Eknath Deshmukh', '9765098712', 'Kopargaon, Ahmednagar', 'Soybean JS-335 & Cotton'],
-  ['c27', 'Bapu Jagtap', '9823056789', 'Indapur, Pune', 'Onion (Fursungi) & Marigold'],
-  ['c28', 'Ramvilas Yadav', '9450012345', 'Chaubepur, Kanpur, UP', 'Wheat HD-2967 & Mentha'],
-  ['c29', 'Awadhesh Tiwari', '9415034567', 'Fatehpur Road, UP', 'Green Pea (Azad P-1) & Potato'],
-  ['c30', 'Chandrabhan Verma', '9839012389', 'Haidergarh, Barabanki, UP', 'Mentha Arka & Sugarcane'],
-  ['c31', 'Gireesh Pandey', '9935098712', 'Phulpur, Prayagraj, UP', 'Paddy Sambha Mahsuri & Mustard'],
-  ['c32', 'Radheshyam Meena', '9414012345', 'Bassia, Dausa, Rajasthan', 'Mustard Giriraj & Gram'],
-  ['c33', 'Bhagwan Singh Gurjar', '9829034567', 'Chaksu, Jaipur, Rajasthan', 'Bajra Pioneer 86M88 & Cluster Bean'],
-  ['c34', 'Devendra Shekhawat', '9460012389', 'Nawalgarh, Jhunjhunu', 'Onion & Fenugreek (Methi)'],
-  ['c35', 'Gopal Lal Dadhich', '9828098712', 'Kapasan, Chittorgarh', 'Groundnut TG-37A & Maize'],
-  ['c36', 'Dinesh Patidar', '9826012345', 'Sanwer, Indore, MP', 'Garlic (Amleta) & Malwa Wheat'],
-  ['c37', 'Mukesh Dhakad', '9893034567', 'Jaora, Ratlam, MP', 'Soybean RVS-2001-4 & Gram'],
-  ['c38', 'Kailash Chouhan', '9926012389', 'Ashta, Sehore, MP', 'Sharbati Wheat & Kabuli Chana'],
-  ['c39', 'Santosh Sharma', '9425098712', 'Ambah, Morena, MP', 'Mustard Pusa Bold - 12 Acres'],
-  ['c40', 'Lalan Prasad Singh', '9431012345', 'Musahari, Muzaffarpur, Bihar', 'Shahi Litchi, Maize & Potato'],
-  ['c41', 'Bipin Bihari Mahto', '9934034567', 'Pusa, Samastipur, Bihar', 'Winter Maize & Cauliflower'],
-  ['c42', 'Raghvendra Yadav', '9470012389', 'Sasaram, Rohtas, Bihar', 'Sona Mahsuri Paddy & Wheat'],
-  ['c43', 'Basavaraj Gowda', '9845012345', 'Sindhanur, Raichur, Karnataka', 'BPT-5204 Rice Belt - 10 Acres'],
-  ['c44', 'Mallikarjun Patil', '9448034567', 'Mudhol, Bagalkot, Karnataka', 'Sugarcane & Sunflower'],
-  ['c45', 'Shivanna K.', '9880012389', 'Maddur, Mandya, Karnataka', 'Paddy, Ragi & Banana (Robusta)'],
-  ['c46', 'Venkat Reddy', '9848012345', 'Miryalaguda, Nalgonda, Telangana', 'MTU-1010 Paddy & Cotton'],
-  ['c47', 'Srinivasa Rao', '9440034567', 'Tenali, Guntur, AP', 'Teja Chilli & Black Gram'],
-  ['c48', 'Nageswara Rao', '9866012389', 'Tadepalligudem, West Godavari', 'Swarna Paddy & Fish Pond feed'],
-  ['c49', 'Subba Rayudu', '9490098712', 'Anantapur, AP', 'Groundnut K-6 & Sweet Orange'],
-  ['c50', 'Tarun Debnath', '9832876543', 'Nabadwip, Nadia, WB', 'Pointed Gourd, Betel Vine & Paddy']
+  ['c10', 'Bikash Murmu', '9641234567', 'Guskara, Bardhaman', 'Organic Paddy & Mustard farming']
 ];
 
 const SEED_CUSTOMERS = RAW_CUSTOMERS.map(([id, name, mobile, village, notes]) => ({
@@ -233,101 +193,9 @@ const RAW_PRODUCTS = [
   ['p3', 'MOP (Muriate of Potash 60% K2O)', 'Inorganic Fertilizers', 'IPL', 1700.0, '50 Kg Bag', 95, 'Grain filling, pest tolerance and drought resistance in crops'],
   ['p4', 'NPK 10:26:26 Complex', 'Inorganic Fertilizers', 'IFFCO', 1470.0, '50 Kg Bag', 110, 'Root development & high potassium requirement in Potato, Sugarcane'],
   ['p5', 'NPK 12:32:16 Complex', 'Inorganic Fertilizers', 'IFFCO', 1470.0, '50 Kg Bag', 125, 'Balanced primary nutrition for Basmati, Cotton and Pulses'],
-  ['p6', 'FACTAMFOS (NPK 20:20:0:13 Sulphur)', 'Inorganic Fertilizers', 'FACT', 1350.0, '50 Kg Bag', 80, 'Sulphur hungry oilseeds (Mustard, Groundnut) and early tillering'],
-  ['p7', 'SSP Powder (Single Super Phosphate 16% P)', 'Inorganic Fertilizers', 'Khaitan', 580.0, '50 Kg Bag', 140, 'Low-cost basal phosphorus with calcium and sulphur for Oilseeds & Pulses'],
-  ['p8', 'SSP Granulated 16% P', 'Inorganic Fertilizers', 'Rama', 640.0, '50 Kg Bag', 120, 'Slow release phosphorus preventing soil fixation in acidic soils'],
-  ['p9', 'Ammonium Sulphate 20.6% N + 24% S', 'Inorganic Fertilizers', 'GSFC', 1050.0, '50 Kg Bag', 65, 'Sulphur deficiency, yellowing of younger leaves in Tea and Paddy'],
-  ['p10', 'Calcium Nitrate (Water Soluble)', 'Speciality Fertilizers', 'YaraLiva', 1650.0, '25 Kg Bag', 45, 'Blossom end rot in Tomato, fruit cracking in Pomegranate'],
-  ['p11', '19:19:19 100% Water Soluble NPK', 'Speciality Fertilizers', 'Mahadhan', 185.0, '1 Kg Pack', 320, 'Vegetative booster spray for all vegetables, nurseries and orchards'],
-  ['p12', '00:52:34 MKP (Mono Potassium Phosphate)', 'Speciality Fertilizers', 'Mahadhan', 240.0, '1 Kg Pack', 210, 'Flower bud induction, profuse blooming & prevention of bud drop'],
-  ['p13', '00:00:50 SOP (Potassium Sulphate)', 'Speciality Fertilizers', 'IFFCO', 210.0, '1 Kg Pack', 190, 'Fruit sizing, brix sweetness, rich color and weight in Potato & Fruits'],
-  ['p14', '13:00:45 Potassium Nitrate', 'Speciality Fertilizers', 'Mahadhan', 225.0, '1 Kg Pack', 160, 'Starch accumulation and tuber bulking in Potato and Onion'],
-  ['p15', '12:61:00 MAP (Mono Ammonium Phosphate)', 'Speciality Fertilizers', 'Yara', 260.0, '1 Kg Pack', 140, 'Initial root system elongation during transplanting'],
-  ['p16', 'IFFCO Nano Urea Liquid', 'Nano Fertilizers', 'IFFCO', 225.0, '500 ml Bottle', 280, 'Foliar nitrogen replacement; eliminates bulky urea bag transport'],
-  ['p17', 'IFFCO Nano DAP Liquid', 'Nano Fertilizers', 'IFFCO', 600.0, '500 ml Bottle', 190, 'Seed treatment & early foliar spray for enhanced phosphorus uptake'],
-  ['p18', 'Zinc Sulphate Heptahydrate 21%', 'Micronutrients', 'Multiplex', 85.0, '1 Kg Pack', 150, 'Khaira disease in Paddy, interveinal leaf chlorosis and stunted growth'],
-  ['p19', 'Chelated Zinc 12% EDTA', 'Micronutrients', 'Tata Rallis', 360.0, '500 g Pack', 110, 'Rapid correction of white bud in Maize and little leaf in Citrus'],
-  ['p20', 'Di-Sodium Octaborate Tetrahydrate 20% Boron', 'Micronutrients', 'Multiplex', 380.0, '1 Kg Pack', 85, 'Hollow heart in Potato, poor pollination & fruit cracking in Tomato'],
-  ['p21', 'Ferrous Sulphate 19% Fe', 'Micronutrients', 'Multiplex', 75.0, '1 Kg Pack', 70, 'Iron chlorosis in high-pH calcareous soils and sugarcane nurseries'],
-  ['p22', 'Agricultural Bentonite Sulphur 90%', 'Micronutrients', 'Fertis', 1250.0, '25 Kg Bag', 50, 'Oil content enhancer in Mustard & Groundnut, soil acidification'],
-  ['p23', 'Magnesium Sulphate (Epsom Salt)', 'Micronutrients', 'Multiplex', 450.0, '25 Kg Bag', 40, 'Interveinal yellowing of mature lower leaves in Cotton & Banana'],
-  ['p24', 'Multiplex Kranti Complete Micronutrient Foliar', 'Micronutrients', 'Multiplex', 420.0, '1 Ltr Bottle', 75, 'Multi-element deficiency corrector boosting plant immunity and vigor'],
   ['p25', 'Coragen (Chlorantraniliprole 18.5% SC)', 'Insecticides', 'FMC', 1850.0, '150 ml Bottle', 60, 'Yellow stem borer & leaf folder in Paddy; fruit borer in Tomato'],
   ['p26', 'Coragen 60 ml', 'Insecticides', 'FMC', 790.0, '60 ml Bottle', 90, 'Early shoot borer in Sugarcane and DBM in Cabbage/Cauliflower'],
-  ['p27', 'Ampligo (Chlorantraniliprole + Lambdacyhalothrin)', 'Insecticides', 'Syngenta', 1450.0, '200 ml Bottle', 55, 'Fall armyworm in Maize, bollworms and caterpillars in Cotton'],
-  ['p28', 'Alika (Thiamethoxam + Lambdacyhalothrin)', 'Insecticides', 'Syngenta', 720.0, '200 ml Bottle', 80, 'Sucking pests (Aphids, Jassids) along with chewing caterpillars in Chilli'],
-  ['p29', 'Confidor (Imidacloprid 17.8% SL)', 'Insecticides', 'Bayer', 580.0, '250 ml Bottle', 95, 'Severe sucking pests: Aphids, Jassids, Whiteflies in Cotton, Chilli'],
-  ['p30', 'Admire 70 WG (Imidacloprid 70% WG)', 'Insecticides', 'Bayer', 420.0, '75 g Pack', 60, 'Long duration systemic protection against hopper burn in Paddy'],
-  ['p31', 'Actara (Thiamethoxam 25% WG)', 'Insecticides', 'Syngenta', 490.0, '250 g Pack', 85, 'Brown Plant Hopper (BPH) in Paddy and Green Leaf Hopper in Cotton'],
-  ['p32', 'Chess (Pymetrozine 50% WG)', 'Insecticides', 'Syngenta', 1280.0, '500 g Pack', 45, 'Immediate feeding blocker against destructive Brown Plant Hopper in Paddy'],
-  ['p33', 'Pegasus (Diafenthiuron 50% WP)', 'Insecticides', 'Syngenta', 1150.0, '250 g Pack', 50, 'Nymphs and adults of Whiteflies, Thrips & Red Spider Mites in Chilli'],
-  ['p34', 'Delegate (Spinetoram 11.7% SC)', 'Insecticides', 'Corteva', 1680.0, '100 ml Bottle', 40, 'Black Thrips in Chilli, Fruit Borer and Leaf Miner in Solanaceous crops'],
-  ['p35', 'Proclaim (Emamectin Benzoate 5% SG)', 'Insecticides', 'Syngenta', 460.0, '100 g Pack', 110, 'Diamondback moth (DBM), fruit borer and Spodoptera litura caterpillars'],
-  ['p36', 'Fame (Flubendiamide 480 SC / 39.35% M/M)', 'Insecticides', 'Bayer', 940.0, '50 ml Bottle', 55, 'Pod borer in Gram/Pulses and American bollworm in Cotton'],
-  ['p37', 'Regent 5% SC (Fipronil 5% SC)', 'Insecticides', 'Bayer', 480.0, '500 ml Bottle', 70, 'Root pests, Thrips, Stem Borer in early stages of Paddy'],
-  ['p38', 'Regent Ultra 0.6% GR (Fipronil Granules)', 'Insecticides', 'Bayer', 620.0, '4 Kg Bag', 85, 'Soil broadcast for termite eradication and early whorl stem borer in Rice'],
-  ['p39', 'Caldan 50 SP (Cartap Hydrochloride 50% SP)', 'Insecticides', 'Dhanuka', 420.0, '250 g Pack', 95, 'Stem borer & leaf folder in Rice with strong contact and stomach poison'],
-  ['p40', 'Padan 4G (Cartap Hydrochloride 4% Granules)', 'Insecticides', 'Sumitomo', 590.0, '5 Kg Bag', 65, 'Whorl maggot, leaf folder and stem borer soil prophylactic application'],
-  ['p41', 'Token / Osheen (Dinotefuran 20% SG)', 'Insecticides', 'PI Industries', 890.0, '250 g Pack', 60, 'Fast knockdown of Brown Plant Hopper (BPH) & White Backed Hopper in Rice'],
-  ['p42', 'Simodis (Isocycloseram 9.2% w/w DC)', 'Insecticides', 'Syngenta', 1350.0, '100 ml Bottle', 35, 'Tough resistant Thrips, Mites and Lepidopteran worms in Chilli & Veg'],
-  ['p43', 'Oberon (Spiromesifen 22.9% SC)', 'Insecticides', 'Bayer', 760.0, '200 ml Bottle', 50, 'All stages of Red Spider Mites and Whiteflies in Brinjal and Cotton'],
-  ['p44', 'Saaf (Carbendazim 12% + Mancozeb 63% WP)', 'Fungicides', 'UPL', 390.0, '500 g Pack', 130, 'Anthracnose, Leaf spot, damping off in nursery and blast in Paddy'],
-  ['p45', 'Saaf 1 Kg Pack', 'Fungicides', 'UPL', 740.0, '1 Kg Pack', 90, 'Comprehensive dual-action contact and systemic fungal disease shield'],
-  ['p46', 'Nativo (Tebuconazole 50% + Trifloxystrobin 25% WG)', 'Fungicides', 'Bayer', 1480.0, '250 g Pack', 55, 'Sheath blight, neck blast & dirty panicle in Basmati Rice; powdery mildew'],
-  ['p47', 'Nativo 100 g Pack', 'Fungicides', 'Bayer', 640.0, '100 g Pack', 80, 'Grain luster enhancer and disease cleaner prior to panicle emergence'],
-  ['p48', 'Amistar Top (Azoxystrobin 18.2% + Difenoconazole 11.4% SC)', 'Fungicides', 'Syngenta', 1520.0, '200 ml Bottle', 45, 'Yellow rust in Wheat, sheath blight in Paddy, anthracnose in Chilli'],
-  ['p49', 'Ridomil Gold (Metalaxyl-M 4% + Mancozeb 64% WP)', 'Fungicides', 'Syngenta', 1250.0, '500 g Pack', 60, 'Late blight in Potato & Tomato, Downy mildew in Grapes and Cucurbits'],
-  ['p50', 'Acrobat (Dimethomorph 50% WP)', 'Fungicides', 'BASF', 890.0, '200 g Pack', 45, 'Late blight tuber rot in Potato, Downy mildew systemic control'],
-  ['p51', 'Cabrio Top (Metiram 55% + Pyraclostrobin 5% WG)', 'Fungicides', 'BASF', 1650.0, '600 g Pack', 35, 'Early & Late blight, Powdery mildew and leaf spot with greening effect'],
-  ['p52', 'Custodia (Azoxystrobin 11% + Tebuconazole 18.3% SC)', 'Fungicides', 'ADAMA', 1220.0, '500 ml Bottle', 40, 'Broad spectrum preventive and curative foliar fungicide for horticulture'],
-  ['p53', 'Contaf Plus (Hexaconazole 5% SC)', 'Fungicides', 'Tata Rallis', 480.0, '1 Ltr Bottle', 75, 'Sheath blight in Paddy, Powdery mildew in Mango and Rust in Soybean'],
-  ['p54', 'Tilt (Propiconazole 25% EC)', 'Fungicides', 'Syngenta', 980.0, '500 ml Bottle', 60, 'Karnal bunt and Yellow Rust in Wheat, False smut in Paddy'],
-  ['p55', 'Score (Difenoconazole 25% EC)', 'Fungicides', 'Syngenta', 1150.0, '250 ml Bottle', 50, 'Apple scab, Dieback and Fruit rot in Chilli, purple blotch in Onion'],
-  ['p56', 'Blitox 50 (Copper Oxychloride 50% WP)', 'Fungicides', 'Tata Rallis', 390.0, '500 g Pack', 80, 'Bacterial leaf blight, canker, damping off and foot rot in Betel vine'],
-  ['p57', 'Indofil M-45 (Mancozeb 75% WP)', 'Fungicides', 'Indofil', 410.0, '1 Kg Pack', 120, 'Preventive contact protective spray against wide spectrum fungal blights'],
-  ['p58', 'Antracol (Propineb 70% WP)', 'Fungicides', 'Bayer', 580.0, '1 Kg Pack', 65, 'Zinc-enriched protective fungicide against early blight and scab'],
-  ['p59', 'Bavistin (Carbendazim 50% WP)', 'Fungicides', 'Crystal', 390.0, '500 g Pack', 85, 'Seed treatment against seed-borne pathogens, collar rot and wilt'],
-  ['p60', 'Sheathmar (Validamycin 3% L)', 'Fungicides', 'Dhanuka', 360.0, '1 Ltr Bottle', 70, 'Specialized antibiotic fungicide against Sheath Blight in Rice'],
-  ['p61', 'Streptocycline (Streptomycin Sulphate 90% + Tetracycline 10%)', 'Bactericides', 'Hindustan Antibiotics', 55.0, '6 g Pouch', 350, 'Bacterial leaf streak, bacterial wilt, black rot in brassicas and citrus canker'],
-  ['p62', 'Trichoderma Viride 1% WP Bio-Fungicide', 'Bio-Fungicides', 'Multiplex', 180.0, '1 Kg Pack', 90, 'Soil-borne Fusarium wilt, root rot, Sclerotinia and Rhizoctonia suppression'],
-  ['p63', 'Roundup (Glyphosate 41% SL)', 'Herbicides', 'Bayer', 490.0, '1 Ltr Bottle', 80, 'Non-selective systemic eradication of deep-rooted perennial field weeds'],
-  ['p64', 'Nominee Gold (Bispyribac Sodium 10% SC)', 'Herbicides', 'PI Industries', 780.0, '100 ml Bottle', 110, 'Post-emergence grassy and broadleaf weed eradication in transplanted Paddy'],
-  ['p65', 'Topik (Clodinafop-Propargyl 15% WP)', 'Herbicides', 'Syngenta', 420.0, '160 g Pack', 95, 'Specific killer of Phalaris minor (Mandusi/Gulli danda) in Wheat fields'],
-  ['p66', 'Sempra (Halosulfuron Methyl 75% WG)', 'Herbicides', 'Dhanuka', 720.0, '36 g Pack', 65, 'Selective killer of Cyperus rotundus (Motha / Nutgrass) from root tuber'],
-  ['p67', 'Stomp Xtra (Pendimethalin 38.7% CS)', 'Herbicides', 'BASF', 840.0, '700 ml Bottle', 75, 'Pre-emergence barrier preventing germination of weeds in Onion, Garlic & Soy'],
-  ['p68', 'Targa Super (Quizalofop Ethyl 5% EC)', 'Herbicides', 'Dhanuka', 680.0, '500 ml Bottle', 55, 'Selective grassy weed killer in broadleaf crops (Soybean, Groundnut, Cotton)'],
-  ['p69', 'Pursuit (Imazethapyr 10% SL)', 'Herbicides', 'BASF', 920.0, '1 Ltr Bottle', 50, 'Early post-emergence control of tough broadleaf and grassy weeds in Pulses'],
-  ['p70', '2,4-D Amine Salt 58% SL', 'Herbicides', 'Tata Rallis', 360.0, '1 Ltr Bottle', 70, 'Broad-leaved weeds like Chenopodium (Bathua) in Wheat and Sugarcane'],
-  ['p71', 'Planofix (Alpha Naphthyl Acetic Acid 4.5% SL)', 'Plant Growth Regulators', 'Bayer', 145.0, '100 ml Bottle', 180, 'Stops flower & immature fruit shedding in Cotton, Chilli, Mango & Tomato'],
-  ['p72', 'Fantac Plus (Amino Acids + Vitamins PGR)', 'Plant Growth Regulators', 'Coromandel', 480.0, '100 ml Bottle', 95, 'Vegetative flush, flower initiation and recovery from drought/pest stress'],
-  ['p73', 'Biovita Liquid Organic Seaweed Ascophyllum', 'Bio-Stimulants', 'PI Industries', 640.0, '1 Ltr Bottle', 75, 'Enzymatic stimulation, chlorophyll density and enhanced fertilizer uptake'],
-  ['p74', 'Humic Acid 98% Potassium Humate Flakes', 'Bio-Stimulants', 'Multiplex', 420.0, '1 Kg Pack', 120, 'Soil conditioning, white root proliferation and nutrient chelation in rootzone'],
-  ['p75', 'ProGibb (Gibberellic Acid 40% WSG)', 'Plant Growth Regulators', 'Sumitomo', 490.0, '2.5 g Pack', 90, 'Elongation of berry clusters in Grapes, internodal shoot growth in Sugarcane'],
-  ['p76', 'Rhiza Mycorrhizal Bio-Fertilizer Granules', 'Bio-Fertilizers', 'Tata Rallis', 550.0, '4 Kg Bag', 65, 'Vesicular arbuscular mycorrhiza expanding active root surface absorption 10x'],
-  ['p77', 'Bio-NPK Liquid Consortia', 'Bio-Fertilizers', 'IFFCO', 180.0, '1 Ltr Bottle', 80, 'Atmospheric nitrogen fixing & fixed phosphorus/potash mobilizing microbes'],
-  ['p78', 'De-Oiled Neem Cake Organic Manure', 'Organic Inputs', 'GreenMax', 950.0, '40 Kg Bag', 45, 'Natural soil nematicide, termite repellent and slow-release nitrogen manure'],
-  ['p79', 'PROM (Phosphate Rich Organic Manure)', 'Organic Inputs', 'IFFCO', 850.0, '50 Kg Bag', 60, 'Eco-friendly organic alternative to chemical DAP with rich organic carbon'],
-  ['p80', 'City Compost (High Organic Carbon Manure)', 'Organic Inputs', 'IL&FS', 380.0, '50 Kg Bag', 70, 'Soil texture rejuvenation, moisture retention and biological carbon booster'],
-  ['p81', 'Alginate Coated Seed Treatment Zinc', 'Micronutrients', 'Yara', 450.0, '250 ml Bottle', 50, 'Direct seed coating ensuring rapid uniform germination and root vigor'],
-  ['p82', 'Multiplex Sambrama Bio-Activator', 'Bio-Stimulants', 'Multiplex', 350.0, '500 ml Bottle', 65, 'Multi-enzyme metabolic stimulator for pulses and oilseeds'],
-  ['p83', 'Tata Bahaar Plant Energizer', 'Bio-Stimulants', 'Tata Rallis', 540.0, '1 Ltr Bottle', 80, 'Protein peptide supplement inducing heavy flowering and branch branching'],
-  ['p84', 'Dursban / Classic (Chlorpyrifos 20% EC)', 'Insecticides', 'Corteva', 410.0, '1 Ltr Bottle', 60, 'Termite infestation in building foundations and soil insects in Sugarcane'],
-  ['p85', 'Tata Asataf (Acephate 75% SP)', 'Insecticides', 'Tata Rallis', 450.0, '500 g Pack', 90, 'Severe attack of Green Leafhopper, Mealybugs & Aphids in Cotton'],
-  ['p86', 'Lancer Gold (Acephate 50% + Imidacloprid 1.8% SP)', 'Insecticides', 'UPL', 640.0, '500 g Pack', 75, 'Synergistic double strike on tough sucking complexes in Vegetables'],
-  ['p87', 'Ulala (Flonicamid 50% WG)', 'Insecticides', 'UPL', 980.0, '100 g Pack', 55, 'Targeted translaminar control of destructive Whiteflies and Thrips in Cotton'],
-  ['p88', 'Godrej Gracia (Fluxametamide 10% EC)', 'Insecticides', 'Godrej', 1890.0, '160 ml Bottle', 30, 'Novel isoxazoline molecule conquering chemical-resistant Thrips and Caterpillars'],
-  ['p89', 'Kocide 2000 (Copper Hydroxide 53.8% DF)', 'Fungicides', 'Corteva', 890.0, '500 g Pack', 45, 'Advanced dry flowable copper bactericide for citrus canker and pomegranate wilt'],
-  ['p90', 'Aliette (Fosetyl-Al 80% WP)', 'Fungicides', 'Bayer', 780.0, '250 g Pack', 40, 'True systemic upward & downward basipetal action on root Phytophthora gummosis'],
-  ['p91', 'Roko (Thiophanate Methyl 70% WP)', 'Fungicides', 'Biostadt', 640.0, '500 g Pack', 70, 'Anthracnose, root rot, powdery mildew and surgical pruning paste in orchards'],
-  ['p92', 'Sultaf / Sulfex (Wettable Sulphur 80% WP)', 'Fungicides', 'Tata Rallis', 260.0, '1 Kg Pack', 85, 'Combined powdery mildew control and predatory mite suppressive nutrition'],
-  ['p93', 'Agri-Spoon Wetting & Spreading Agent (Silicon Spreader)', 'Adjuvants', 'Multiplex', 390.0, '250 ml Bottle', 110, 'Breaks spray droplet surface tension ensuring rainfast penetration in waxy leaves'],
-  ['p94', 'Glycel (Glyphosate 41% SL)', 'Herbicides', 'Excel Crop Care', 480.0, '1 Ltr Bottle', 65, 'Bunding and bund weed clearance, non-crop area vegetation eradication'],
-  ['p95', 'Atrazine 50% WP (Tata Atrafil)', 'Herbicides', 'Tata Rallis', 360.0, '500 g Pack', 60, 'Pre and early post-emergence broadleaf and grass weed killer in Maize and Cane'],
-  ['p96', 'Pretilachlor 50% EC (Rifit)', 'Herbicides', 'Syngenta', 580.0, '1 Ltr Bottle', 80, 'Early pre-emergence grass killer applied within 0-4 days of transplanting Rice'],
-  ['p97', 'Pyrazosulfuron Ethyl 10% WP (Saathi)', 'Herbicides', 'UPL', 240.0, '80 g Pack', 90, 'Extremely low-dose pre-emergence sedge and broadleaf control in Rice nursery'],
-  ['p98', 'Miraculan (Triacontanol 0.05% EC)', 'Plant Growth Regulators', 'Kalyani', 380.0, '1 Ltr Bottle', 70, 'Increases photosynthetic activity, CO2 fixation and yields in groundnut & chillies'],
-  ['p99', 'Carbofuran 3% CG (Furadan)', 'Insecticides', 'FMC', 720.0, '5 Kg Bag', 40, 'Nematode suppression, gall midge and root grubs in heavy infested soils'],
-  ['p100', 'Phorate 10% CG (Thimet)', 'Insecticides', 'UPL', 640.0, '5 Kg Bag', 45, 'Potent systemic soil insecticide for white grub eradication in Sugarcane & Groundnut']
+  ['p18', 'Zinc Sulphate Heptahydrate 21%', 'Micronutrients', 'Multiplex', 85.0, '1 Kg Pack', 150, 'Khaira disease in Paddy, interveinal leaf chlorosis and stunted growth']
 ];
 
 const SEED_PRODUCTS = RAW_PRODUCTS.map(([id, name, category, brand, sellingPrice, unit, stockQty, cropProblem]) => ({
@@ -1308,7 +1176,7 @@ function CustomersManager({ customers, setCustomers, sales, onQuickSale, onAddCu
             className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3 py-2 rounded-xl text-xs flex items-center gap-1.5 shrink-0 shadow-sm"
           >
             <Plus className="w-4 h-4" />
-            <span>Add Farmer</span>
+            <span className="hidden sm:inline">Add Farmer</span>
           </button>
         </div>
       </div>
@@ -1719,6 +1587,14 @@ export default function AgriShopApp() {
     day: 'numeric'
   });
 
+  const navTabs = [
+    { id: 'dashboard', label: t.dashboard, icon: Store },
+    { id: 'sales', label: t.sales, icon: ShoppingCart },
+    { id: 'customers', label: t.customers, icon: Users },
+    { id: 'products', label: t.products, icon: Package },
+    { id: 'settings', label: t.settings, icon: Settings }
+  ];
+
   return (
     <div className={`min-h-screen w-full flex bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 ${theme === 'dark' ? 'dark' : ''}`}>
       {/* Toast Notification */}
@@ -1735,7 +1611,7 @@ export default function AgriShopApp() {
         </div>
       )}
 
-      {/* Main Sidebar */}
+      {/* Main Sidebar (Desktop Only) */}
       <aside className="w-64 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex-col justify-between hidden md:flex shrink-0 no-print">
         <div className="p-4 space-y-6">
           {/* Logo & Store Header */}
@@ -1769,13 +1645,7 @@ export default function AgriShopApp() {
 
           {/* Navigation Links */}
           <nav className="space-y-1">
-            {[
-              { id: 'dashboard', label: t.dashboard, icon: Store },
-              { id: 'sales', label: t.sales, icon: ShoppingCart },
-              { id: 'customers', label: t.customers, icon: Users },
-              { id: 'products', label: t.products, icon: Package },
-              { id: 'settings', label: t.settings, icon: Settings }
-            ].map(tab => {
+            {navTabs.map(tab => {
               const Icon = tab.icon;
               const isActive = activeTab === tab.id;
               return (
@@ -1812,41 +1682,49 @@ export default function AgriShopApp() {
       </aside>
 
       {/* Main Content Area */}
-      <main className="flex-1 flex flex-col min-w-0 overflow-y-auto">
+      {/* Added pb-16 to avoid content hiding behind mobile bottom nav */}
+      <main className="flex-1 flex flex-col min-w-0 overflow-y-auto pb-16 md:pb-0">
         {/* Sticky Action Header */}
-        <header className="sticky top-0 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 py-3 flex items-center justify-between gap-3 no-print">
-          <div className="flex items-center gap-2 sm:gap-3">
+        <header className="sticky top-0 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-3 py-3 flex items-center justify-between gap-2 no-print">
+          <div className="flex items-center gap-1.5 sm:gap-3 overflow-x-auto hide-scrollbar">
+            {/* Mobile Store Icon */}
+            <div className="md:hidden flex items-center justify-center w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-700 text-white mr-1 shrink-0">
+              <Store className="w-4 h-4" />
+            </div>
+
             <button
               onClick={() => { setScanPrefillData(null); setIsSaleModalOpen(true); }}
-              className="flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold px-4 py-2 rounded-xl text-xs sm:text-sm shadow-md shadow-emerald-600/20 active:scale-95 transition"
+              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold px-3 py-2 rounded-xl text-xs sm:text-sm shadow-md shadow-emerald-600/20 active:scale-95 transition shrink-0"
             >
               <Plus className="w-4 h-4" />
-              <span>{t.newSale}</span>
+              <span className="hidden sm:inline">{t.newSale}</span>
+              <span className="sm:hidden">Sale</span>
             </button>
             <button
               onClick={() => setIsScanModalOpen(true)}
-              className="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold px-3 py-2 rounded-xl text-xs sm:text-sm border border-slate-200 dark:border-slate-700 active:scale-95 transition"
+              className="flex items-center justify-center gap-1.5 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold px-3 py-2 rounded-xl text-xs sm:text-sm border border-slate-200 dark:border-slate-700 active:scale-95 transition shrink-0"
             >
               <Camera className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
               <span className="hidden sm:inline">{t.scanSlip}</span>
+              <span className="sm:hidden">Scan</span>
             </button>
 
             {/* Privacy Mask Toggle Button */}
             <button
               onClick={handleToggleMask}
               title={isMasked ? 'Enter PIN to unmask figures' : 'Click to mask figures'}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition ${
+              className={`flex items-center justify-center gap-1.5 px-2.5 py-2 rounded-xl text-xs font-bold border transition shrink-0 ${
                 isMasked
                   ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800'
                   : 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800'
               }`}
             >
               {isMasked ? <Lock className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
-              <span>{isMasked ? `🔒 ${t.masked}` : `👁️ ${t.unmask}`}</span>
+              <span className="hidden sm:inline">{isMasked ? `🔒 ${t.masked}` : `👁️ ${t.unmask}`}</span>
             </button>
           </div>
 
-          <div className="text-right">
+          <div className="text-right hidden sm:block shrink-0">
             <span className="text-xs text-slate-500 dark:text-slate-400 block">{todayStr}</span>
             <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
               {metrics.todayCount} Bills Today
@@ -2009,6 +1887,26 @@ export default function AgriShopApp() {
           )}
         </div>
       </main>
+
+      {/* Mobile Bottom Navigation Bar (Mobile Only) */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 flex justify-between items-center px-2 pb-safe z-30 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+        {navTabs.map(tab => {
+          const Icon = tab.icon;
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex-1 flex flex-col items-center justify-center py-2.5 space-y-1 transition ${
+                isActive ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-500 dark:text-slate-400 hover:text-slate-700'
+              }`}
+            >
+              <Icon className={`w-5 h-5 ${isActive ? 'scale-110 transition-transform' : ''}`} />
+              <span className="text-[10px] font-bold truncate w-full text-center px-1">{tab.label}</span>
+            </button>
+          );
+        })}
+      </nav>
 
       {/* Pin Verification Modal */}
       <PinVerificationModal
